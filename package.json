@@ -11,5 +11,8 @@
   },
   "devDependencies": {
     "vite": "latest"
+  },
+  "dependencies": {
+    "firebase": "^12.18.0"
   }
 }
