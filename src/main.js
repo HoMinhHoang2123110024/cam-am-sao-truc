@@ -2,15 +2,16 @@ import { initializeApp } from "firebase/app";
 import { getDatabase, ref, onValue, push, set, remove } from "firebase/database";
 import { getAuth, signInWithEmailAndPassword, onAuthStateChanged, signOut } from "firebase/auth";
 
-// 1. Cấu hình Firebase (Thay thế bằng config của bạn)
+// 1. Cấu hình Firebase hoàn chỉnh
 const firebaseConfig = {
-  apiKey: "YOUR_API_KEY",
-  authDomain: "YOUR_AUTH_DOMAIN",
-  databaseURL: "YOUR_DATABASE_URL",
-  projectId: "YOUR_PROJECT_ID",
-  storageBucket: "YOUR_STORAGE_BUCKET",
-  messagingSenderId: "YOUR_MESSAGING_SENDER_ID",
-  appId: "YOUR_APP_ID"
+  apiKey: "AIzaSyB7mKURhDMZMajT8BwiEVMa4qHmka-Ol4I",
+  authDomain: "cam-am-sao-truc-c93f4.firebaseapp.com",
+  databaseURL: "https://cam-am-sao-truc-default-rtdb.asia-southeast1.firebasedatabase.app",
+  projectId: "cam-am-sao-truc-c93f4",
+  storageBucket: "cam-am-sao-truc-c93f4.firebasestorage.app",
+  messagingSenderId: "696854988441",
+  appId: "1:696854988441:web:47aebd800d8687709d9a08",
+  measurementId: "G-7L5NGJCFYE"
 };
 
 const app = initializeApp(firebaseConfig);
